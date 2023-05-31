@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./src/images/favicon-32x32.png"
+    />
+
+    <!-- link to typeface -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./src/css/styles.css" />
+
+    <title>Frontend Mentor | Fylo data storage component</title>
+  </head>
+  <body>
+    <main class="container">
+      <div class="wrapper brand-container">
+        <div class="logo-container">
+          <img src="./src/images/logo.svg" alt="logo" class="brand-logo" />
+        </div>
+
+        <div class="icons-container">
+          <div class="icon-item">
+            <img
+              src="./src/images/icon-document.svg"
+              alt="document icon"
+              class="icon-image"
+            />
+          </div>
+          <div class="icon-item">
+            <img
+              src="./src/images/icon-folder.svg"
+              alt="folder icon"
+              class="icon-image"
+            />
+          </div>
+          <div class="icon-item">
+            <img
+              src="./src/images/icon-upload.svg"
+              alt="upload icon"
+              class="icon-image"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="wrapper progress-container">
+        <div class="pop-up">
+          <div class="content">
+            <span class="number num-one">1</span>
+            <span class="number num-eight">8</span>
+            <span class="number num-five">5</span>
+            <span class="text">gb left</span>
+          </div>
+        </div>
+        <p class="message">
+          You've used <span class="accent">815 GB</span> of your storage
+        </p>
+        <div class="progress">
+          <div class="progress__bar">
+            <div class="progress__thumb"></div>
+          </div>
+        </div>
+        <div class="progress-details">
+          <p class="progress-details__start">0 GB</p>
+          <p class="progress-details__end">1000 GB</p>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
